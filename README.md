@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/f9yoQ7kr)
 # 2526 - Recuperación de entornos de desarrollo - DAW
 
 > AVISO!!! Únicamente puedes usar un editor (No IDE) y la documentación de plantUML para generar los diagramas UML. El uso de cualquier recurso que no sean estos, supondrá la no superación de la prueba.
@@ -5,8 +6,8 @@
 > Evaluación de RA1, RA4, RA5 y RA6.
  
 ---
-**Nombre:** [Nombre del alumno]
-**RA de los que te examinas:** [RA de los que te examinas. Ojo, no confundas RAs con Unidad]
+**Nombre:** Fabio Tello Lopez
+**RA de los que te examinas:** RA1 y RA6
 ---
 
 
@@ -18,7 +19,9 @@ Edita este archivo y responde a las siguientes preguntas, justo debajo de *"Resp
 ### 1. (4 puntos - 5 min) ¿Cómo interactúan los distintos **elementos de un ordenador** durante la ejecución de un programa software? Nombra los elementos y describe el proceso desde que se da la orden de ejecutar un programa hasta que pasa a ejecutarse y termina.
 
 *Respuesta a la pregunta 1. (mínimo 300 palabras)*
+Los elementos de un ordenador se diferencian inicialmente entre software y hardware, en donde el software es la parte que compne el rdenador y el hardware es la parte de fuera como pueden ser los perifericos. En componenetes tenemos la ram la cual guarda información momentánea, el disco duro el cual guarda la información permanentemente, el monitor que mostrara lo que comparte el ordenador, el cpu que es lo que dara las instrucciones.
 
+La CPU es el cerebro de la máquina, es el que da la orden de ejecutar un programa, esta información se guarda momentaneamente en la RAM para luego ser mostrado en el monitor.
 
 ---
 
@@ -32,14 +35,19 @@ Kotlin es un lenguaje de **alto nivel**, normalmente **compilado a bytecode** pa
 | **Nivel de abstracción**        | Kotlin es un lenguaje de **alto nivel**. Esto significa que escribimos instrucciones que son fáciles de entender para una persona, sin tener que trabajar directamente con unos y ceros, memoria o instrucciones del procesador. Por ejemplo, podemos crear variables, funciones y clases de una forma bastante clara.                                                                                                                                                                                                                                                                                                                                         |
 | **Modo de ejecución**           | Normalmente, Kotlin se usa sobre la **JVM**, la misma máquina virtual que utiliza Java. El proceso sería: escribimos **código fuente** en Kotlin, el compilador lo transforma en un código intermedio llamado **bytecode**, y después la JVM lo ejecuta. Por eso, un programa Kotlin puede funcionar en distintos sistemas siempre que tengan instalada la máquina virtual adecuada.                                                                                                                                                                                                                                                                           |
 | **Paradigmas soportados**       | Kotlin permite programar de varias formas. Principalmente se usa como lenguaje **orientado a objetos**, porque permite crear clases y objetos. También permite usar funciones de forma cómoda, por lo que tiene características de programación **funcional**. Para este nivel, lo importante es entender que Kotlin nos permite organizar el programa en clases, funciones y datos.                                                                                                                                                                                                                                                                           |
-| **Características principales** | Kotlin es un lenguaje moderno, claro y bastante seguro. Una de sus características más importantes es que ayuda a evitar errores con valores `null`. También permite escribir menos código que Java para hacer algunas tareas. Además, se puede usar junto con Java, por lo que muchas librerías de Java pueden utilizarse también en Kotlin. Kotlin se utiliza mucho en el desarrollo de aplicaciones Android, aunque también puede utilizarse para programas de escritorio, aplicaciones de servidor y otros tipos de proyectos. En clase lo hemos usado para aprender programación estructurada, funciones, clases, objetos y buenas prácticas. `fun main() { println("Hola mundo") } ` Este programa muestra por pantalla el texto `Hola mundo`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-
-
+| **Características principales** | Kotlin es un lenguaje moderno, claro y bastante seguro. Una de sus características más importantes es que ayuda a evitar errores con valores `null`. También permite escribir menos código que Java para hacer algunas tareas. Además, se puede usar junto con Java, por lo que muchas librerías de Java pueden utilizarse también en Kotlin. Kotlin se utiliza mucho en el desarrollo de aplicaciones Android, aunque también puede utilizarse para programas de escritorio, aplicaciones de servidor y otros tipos de proyectos. En clase lo hemos usado para aprender programación estructurada, funciones, clases, objetos y buenas prácticas. `fun main() { println("Hola mundo") } ` Este programa muestra por pantalla el texto `Hola mundo`.                                                                                                                                                                                                                                                                                                                                                                                         |
+                                                                                                                                                                                                                                 
 *Respuesta a la pregunta 2. (mínimo 500 palabras)*
 
 
 ---
+Python es un lenguaje de programación interpretado lo que significa que el codigo se va leyendo mediante que se va escribiendo. Es de facil escritura, ya que esta hecho para que sea facil programar usandolo. Es un lenguaje de nivel alto pero al ser interpretado luego será lento por eso no se suele usar en proyectos grandes. Python al usar un interprete, lo unico que necesitamos es un ide con soporte a este mismo para volverse codigo ejecutable. Lo bueno de que tenga un intérprete es que se pueden detectar errores mas fáciles porque puedes ir viendo los errores mientras vas escribiendo.
 
+Java es un lenguaje de programacitón que necesita ayuda de un compilador para pasarlo a un codigo intermedio llamado bytecode y luego pasar a codigo ejecutable. Debido a que usa la maquina virtual de java se vuelve muy portable. Es un codigo que debido a su portabilidad se utiliza mucho en proyectos grandes.
+
+C es un lenguaje de alto nivel muy utilizado a nivel profesional porque es uno de los mas rápidos, ya que su compilador lo convierte a bytecode y luego pasa a ser codigo ejecutable. Gracias a que usa la maquina virtual es muy portable.
+
+Javascript es el lenguaje estandar al hablar de edición de paginas web. Este lenguaje se escribe con aperturas y cerraduras de flechas. Al ser un lenguaje interpretado para ejecutarlo simplemente necesitas un ide con soporte de javascript. Gracias a javascript podemos darle vida a la pagina ya que permite que los formularios funciones o que un buton pueda ser pulsado.
 ---
 
 
@@ -155,21 +163,64 @@ El sistema gestiona a los usuarios en tres estados fundamentales:
 
 **Entrega:**
 1. (5 puntos) Imagen generada por la herramienta UML con el diagrama de estados. https://www.plantuml.com/
-   
+
+
    *Respuesta a la pregunta 12.1*
+   <img width="1402" height="540" alt="Captura de pantalla 2026-06-15 101404" src="https://github.com/user-attachments/assets/e17d3de6-6e55-441f-9769-dbddad6e6450" />
 
 
 
-2. (5 puntos) Código fuente del diagrama de estados.
+3. (5 puntos) Código fuente del diagrama de estados.
    
    *Respuesta a la pregunta 12.2*
+```plantuml
+@startuml
 
+[*] --> Activo
+
+Activo --> [*]
+Activo : accion / Usuario permitido
+Activo : do / Esperar cambios
+
+Bloqueado --> [*]
+Bloqueado : accion / Usuario bloqueado
+Bloqueado : do / Esperar desbloqueo
+
+Desactivado --> [*]
+Desactivado : accion / Usuario desactivado
+Desactivado : do / Esperar activacion
+
+Activo --> Bloqueado: [Intentos fallidos >= 3]
+Activo --> Desactivado: [Cuenta inactiva > 6 meses]
+Desactivado --> Activo : Peticion de reactivacion de cuenta
+Bloqueado --> Activo : Posible desbaneo por administrador
+
+@enduml
+```
 
 
 3. (5 puntos) Explicación de estados y sus acciones/actividades, transiciones y sus guardas.
    
    *Respuesta a la pregunta 12.3*
+Estados:
+Este diagrama cuenta con 3 estados
+Activo -> este estado es el inicial y el que dara acceso completo al usuario.
+Bloqueado -> este estado bloquea al usuario y hace que no pueda acceder.
+Desactivado -> este estado desactiva la cuenta del usuario.
 
+Transiciones:
+El estado activo espera cambios para pasar de un estado a otro.
+El estado bloqueado espera el desbloqueo para pasar a estado activo.
+El estado desactivado espera la activación para volver a estado activo.
+
+Acciones de entrada:
+El estado activo tiene como entrada el registro del usuario en la web.
+El estado bloqueado necesita que algun administrador bloquee la cuenta o que dalle 3 veces el inicio de sesion.
+El estado Desactivado necesita pasar mas de 6 meses inactivo o ser desactivado por un administrador.
+
+Primera tomara el estado de activo el cual se completara al estar registrado el usuario
+En caso de superar 3 intentos fallidos el del usuario pasara de estado activo a estado bloqueado.
+En caso de el usuario solicitar la desactivación de la cuenta o si permanece activo durante mas de 6 meses su estado pasará de estado activo a estado desactivado
 
 ---
 
