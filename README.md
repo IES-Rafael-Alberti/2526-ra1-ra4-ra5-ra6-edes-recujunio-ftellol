@@ -180,7 +180,7 @@ El sistema gestiona a los usuarios en tres estados fundamentales:
 
 Activo --> [*]
 Activo : accion / Usuario permitido
-Activo : do / El usuario completa su registro
+Activo : do / Esperar cambios
 
 Bloqueado --> [*]
 Bloqueado : accion / Usuario bloqueado
@@ -202,6 +202,21 @@ Bloqueado --> Activo : Posible desbaneo por administrador
 3. (5 puntos) Explicación de estados y sus acciones/actividades, transiciones y sus guardas.
    
    *Respuesta a la pregunta 12.3*
+Estados:
+Este diagrama cuenta con 3 estados
+Activo -> este estado es el inicial y el que dara acceso completo al usuario.
+Bloqueado -> este estado bloquea al usuario y hace que no pueda acceder.
+Desactivado -> este estado desactiva la cuenta del usuario.
+
+Transiciones:
+El estado activo espera cambios para pasar de un estado a otro.
+El estado bloqueado espera el desbloqueo para pasar a estado activo.
+El estado desactivado espera la activación para volver a estado activo.
+
+Acciones de entrada:
+El estado activo tiene como entrada el registro del usuario en la web.
+El estado bloqueado necesita que algun administrador bloquee la cuenta o que dalle 3 veces el inicio de sesion.
+El estado Desactivado necesita pasar mas de 6 meses inactivo o ser desactivado por un administrador.
 
 Primera tomara el estado de activo el cual se completara al estar registrado el usuario
 En caso de superar 3 intentos fallidos el del usuario pasara de estado activo a estado bloqueado.
